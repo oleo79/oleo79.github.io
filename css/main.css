@@ -1,0 +1,175 @@
+body {
+
+  background-repeat:repeat;
+  background-attachment:fixed;
+  font-family: 'Lora', serif;
+}
+
+.container{
+ background-color: #FFFFFF;
+ margin-top: 20px;
+ margin-bottom: 0px;
+ width: 970px;
+ border-radius: 4px;
+}
+
+@media screen and (min-device-width: 1224px) {
+ body {background-image: url(../images/bg1440.jpg);}
+}
+@media screen and (min-device-width: 800px) {
+ body {background-image: url(../images/bg1024.jpg);}
+}
+@media screen and (max-device-width: 800px) {
+ body {background-image: url(../images/bg600.jpg);
+ }
+
+}
+
+#mytitle{
+ padding-left: 10px;
+ padding-top: 10px;
+}
+
+.h1, h1 {
+  font-size: 24px;
+  
+}
+
+.h2, h2 {
+  font-size: 20px;
+}
+
+#contacts_services h2 {
+  font-size: 14px;
+}
+
+#contacts_services h4 {
+  font-size: 12px;
+}
+
+#contacts_services h5 {
+  font-size: 10px;
+}
+
+li{
+ width: 16%;
+ text-align: center;
+ font-family: 'Open Sans', sans-serif;
+}
+
+.licontact{
+ width:  21%;
+}
+
+.livideo{
+ width:  12%;
+}
+
+.std_ul li{
+  width: 90%;
+  text-align: justify;
+  font-family: 'Lora', serif;
+}
+
+#menu li {
+  border-right: 1px solid  #eee9e9;
+}
+
+#menu li:last-child{
+  border-right: 0px ;
+  text-align: right;
+}
+
+.list-inline{
+  margin-top: 20px;
+  margin-left: -30px;
+  margin-right: 15px;
+}
+
+#myrow-carousel{
+ margin-left: 0px;
+ margin-right: 0px;
+ margin-top: 10px;
+}
+
+.item{
+  background: #333;    
+  text-align: left;
+  height: 300px;
+
+}
+
+.carousel-control{
+ height: 300px;
+}
+
+.carousel-inner{
+ height: 300px;
+}
+
+.carousel-caption{
+ color: #eee9e9;
+ text-align: left;
+ margin-left: -90px;
+ margin-bottom: -15px;
+}
+
+.myimg-slide{
+  height: 300px;
+}
+
+#mycontent{
+ text-align: justify;
+ margin-right: 10px;
+}
+
+#contacts_services{
+  padding-left: 20px;
+}
+
+.content_row{
+ margin-bottom: 25px; 
+ padding-right: 10px;
+}
+
+.thumbnail{
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
+
+.thumbnail-index{
+ height: 250px;  
+}
+
+.service_thumbnail{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 250px;
+}
+
+.service_thumbnail_short{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 100px;
+  width: 100px;
+}
+
+.content_col h4 p{
+  font-size: 16px;
+}
+
+.content_col_md_3{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#servtitle{
+ margin-left: 20px;
+}
+
+#myfooter{
+ margin-top: 2px;
+ margin-bottom: 20px;
+ background-color:transparent;
+ color: #8C949E;
+}
